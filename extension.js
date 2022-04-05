@@ -9,7 +9,7 @@ let overlay = null;
 
 const resetStyle = () => {
     let {0: width, 1: height} = global.display.get_size();
-    const border_size = 1;
+    const border_size = 5;
     height -= border_size;
     overlay.set_style(
         `background-color: transparent;
