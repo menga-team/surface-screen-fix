@@ -13,7 +13,7 @@ const resetStyle = () => {
     height -= border_size;
     overlay.set_style(
         `background-color: transparent;
-        border-bottom: ${border_size}px solid white;
+        border-top: ${border_size}px solid white;
         width: ${width}px;
         height: ${height}px;`
     );
