@@ -35,6 +35,4 @@ function disable() {
     overlay = null;
 
     Meta.enable_unredirect_for_display(global.display);
-
-    Main.panel._rightBox.remove_child(fourByThreeButton);
 };
