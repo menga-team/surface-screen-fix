@@ -1,8 +1,8 @@
 {
-	"uuid": "whiteborder@aaronbpaden.gmail.com",
-	"name": "White Border Overlay",
-	"description": "Draw a white border around the desktop to enable (hopefully) universal application support for the Sinden Lightgun.",
+	"uuid": "surface-screen-fix@menga.team",
+	"name": "Surface Screen Fix",
+	"description": "Gnome Extension adding a white line to the screen, fixing a hardware issue ocurring with Microsoft Surface Devices ",
 	"shell-version": ["3.36", "3.38", "40", "41", "42"],
-	"url": "https://github.com/AaronBPaden/whiteborder-aaronbpaden.gmail.com",
-	"version": 3
+	"url": "https://github.com/menga-team/surface-screen-fix",
+	"version": 1
 }
