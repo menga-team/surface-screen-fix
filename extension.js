@@ -9,13 +9,13 @@ let overlay = null;
 
 const resetStyle = () => {
     let {0: width, 1: height} = global.display.get_size();
-    const border_size = 5;
-    const side = (height > width) ? "right" : "top";
-    if(side == "top") height -= border_size;
-    else width -= border_size;
+    const border_size = 2;
+    width -= border_size;
+    height -= border_size;
     overlay.set_style(
         `background-color: transparent;
-        border-${side}: ${border_size}px solid white;
+        border-right: ${border_size}px solid white;
+        border-top: ${border_size}px solid white;
         width: ${width}px;
         height: ${height}px;`
     );
